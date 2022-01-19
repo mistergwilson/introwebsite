@@ -1,0 +1,53 @@
+h1 {
+	color: white;
+	font-family: 'Potta One', cursive;
+	font-size: 48px;
+	text-align: center;
+
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+
+#intro {
+	background-color: blue;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+	margin-right: -50px;
+	margin-top: -50px;
+}
+
+#photos {
+	display: grid;
+	grid-template-columns: 34% 33% 33%;
+	grid-template-rows: 50% 50%;
+
+}
+
+#longphoto {
+	grid-row: 1 / span 2;
+}
+
+#dog {
+	grid-column-start: 2;
+}
+#me2 {
+	grid-column-start: 3;
+}
+
+#aboutme {
+	background-color: orange;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+	margin-right: -50px;
+	
+}
