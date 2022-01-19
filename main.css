@@ -13,7 +13,7 @@ p {
 
 
 #intro {
-	background-color: blue;
+	background-color: #34495e;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 20px;
@@ -25,6 +25,7 @@ p {
 
 #photos {
 	display: grid;
+	margin-left: -10px;
 	grid-template-columns: 34% 33% 33%;
 	grid-template-rows: 50% 50%;
 
