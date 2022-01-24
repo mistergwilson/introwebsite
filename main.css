@@ -1,3 +1,41 @@
+#menu {
+	overflow: hidden;
+	background: #95a5a6;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -10px;
+}
+
+#menu ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+	background-color: blue;
+}
+
+#menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
 h1 {
 	color: white;
 	font-family: 'Potta One', cursive;
@@ -20,7 +58,8 @@ p {
 	padding-bottom: 20px;
 	margin-bottom: -20px;
 	margin-right: -50px;
-	margin-top: -50px;
+	margin-left: -10px;
+
 }
 
 #photos {
