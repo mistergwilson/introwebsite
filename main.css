@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #menu {
 	overflow: hidden;
 	background: #95a5a6;
@@ -51,6 +60,7 @@ p {
 
 
 #intro {
+	animation-name: fadeIn;
 	background-color: #34495e;
 	padding-left: 10px;
 	padding-right: 10px;
